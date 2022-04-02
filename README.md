@@ -1,4 +1,5 @@
 # CNN architecture parameters
+### [ThreshNet: An Efficient DenseNet using Threshold Mechanism to Reduce Connections](https://arxiv.org/abs/2201.03013)
 * Measure the parameters of different CNN model architectures by torchstat.
 * CNN includes: ResNet, ResNeXt, Wide_ResNet, DenseNet, ThreshNet, HarDNet.
 
@@ -29,12 +30,28 @@ model = models.resnet18()
 stat(model, (3, 224, 224))
 ```
 
-## Requirements
+### Supported Layers
+|Layer|Flops|Madd|MemRead|MemWrite|
+|---|---|---|---|---| 
+|Conv2d|ok|ok|ok| ok|
+|ConvTranspose2d| |ok|||
+|BatchNorm2d|ok|ok|ok|ok|
+|Linear|ok|ok|ok|ok|
+|UpSample|ok| |||
+|AvgPool2d|ok|ok|ok|ok|
+|MaxPool2d|ok|ok|ok|ok|
+|ReLU|ok|ok|ok|ok|
+|ReLU6|ok|ok|ok|ok|
+|LeaklyReLU|ok||ok|ok|
+|PReLU|ok|ok|ok|ok|
+|ELU|ok|ok|ok|ok|
+
+### Requirements
 * Python 3.6+
 * Pytorch 0.4.0+
 * Pandas 0.23.4+
 * NumPy 1.14.3+
 
-## References
+### References
 * [torchstat](https://github.com/Swall0w/torchstat)
 * [HarDNet](https://github.com/PingoLH/Pytorch-HarDNet)
