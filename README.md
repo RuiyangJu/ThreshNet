@@ -16,7 +16,7 @@ If you find ThreshNet useful in your research, please consider citing:
 ## Contents
 1. [Introduction](#introduction)
 2. [Usage](#Usage)
-2. [Results on CIFAR](#Results on CIFAR)
+2. [Results](#Results)
 3. [Requirements](#Requirements)
 4. [Hyperparameters](#Hyperparameters)
 5. [References](#References)
@@ -31,7 +31,7 @@ ThreshNet is a network that using a threshold mechanism to further optimize the 
 python3 main.py
 ```
 
-## Results on CIFAR
+## Results
 | Name | Params (M) | MAdds (G) | FLOPs (G) | Memory (MB) | MemR+W (MB)| 
 | :---: | :---:  | :---:  | :---:  | :---:  | :---:  |
 | ResNet-50  | 25.55  | 8.22 | 4.12 | 109.69 | 317.43 |
