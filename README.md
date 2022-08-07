@@ -38,7 +38,7 @@ optional arguments:
     --testBatchSize     default=100     test batch size
 
 ## Results
-| Name | GPU Time (ms) | Error (%) | FLOPs (G) | MAdd (G) | Memory (MB) | #Params (M) |
+| Name | GPU Time (ms) | C10 Error (%) | FLOPs (G) | MAdd (G) | Memory (MB) | #Params (M) |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | **ThreshNet28** | 0.35 | 14.75 | 2.28 | 4.55 | 83.26 | 10.18 |
 | SqueezeNet | 0.36 | 14.25 | 2.69 | 5.32 | 211.42 | 0.78 |
