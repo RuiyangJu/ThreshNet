@@ -5,7 +5,6 @@
 </p>
 
 ### Citation
-
 If you find ThreshNet useful in your research, please consider citing:
 
 	@article{ThreshNet 2022,
@@ -22,8 +21,11 @@ If you find ThreshNet useful in your research, please consider citing:
 4. [Hyperparameters](#Hyperparameters)
 5. [References](#References)
 
-### Result
+### Introduction
+ThreshNet is a network that using a threshold mechanism to further optimize the method of connections. Different numbers of connections for different convolution layers are discarded to speed up inference of the network. ThreshNet has been evaluated with image classification using data sets of CIFAR 10 and SVHN under platforms of NVIDIA RTX 3050 and Raspberry Pi 4. Experimental results show that, compared with HarDNet68, GhostNet, MobileNetV2, ShuffleNet, and EfficientNet, the inference time of the proposed ThreshNet79 is 5%, 9%, 10%, 18%, and 20% faster, respectively. The number of parameters of ThreshNet95 is 55% less than that of HarDNet85.
+ <img src="Img/threshold-mechanism.jpg" width="640" title="threshold-mechanism">
 
+### Result
 | Name | Params (M) | MAdds (G) | FLOPs (G) | Memory (MB) | MemR+W (MB)| 
 | :---: | :---:  | :---:  | :---:  | :---:  | :---:  |
 | ResNet-50  | 25.55  | 8.22 | 4.12 | 109.69 | 317.43 |
