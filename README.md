@@ -5,17 +5,12 @@
 
 If you find ThreshNet useful in your research, please consider citing:
 
-@article{ThreshNet2022,
-    author = {Rui-Yang Ju, Ting-Yu Lin, Jia-Hao Jian, Jen-Shiun Chiang, Wei-Bin Yang},
-    
-    title = {ThreshNet: An Efficient DenseNet using Threshold Mechanism to Reduce Connections},
-    
-    journal = {IEEE Access},
-    
-    DOI = {10.1109/ACCESS.2022.3196492},
-    
-    year = 2022}
-
+	@article{ThreshNet 2022,
+	 title={ThreshNet: An Efficient DenseNet using Threshold Mechanism to Reduce Connections},
+	 author={Rui-Yang Ju, Ting-Yu Lin, Jia-Hao Jian, Jen-Shiun Chiang, Wei-Bin Yang},
+	 journal={IEEE Access},
+	 year={2022}
+	 }
 
 ### Result
 
