@@ -1,10 +1,10 @@
-# CNN architecture parameters
+# CNN architecture
 ### [ThreshNet: An Efficient DenseNet Using Threshold Mechanism to Reduce Connections](https://arxiv.org/abs/2201.03013)
 <p align="center">
   <img src="Img/threshnet.jpg" width="640" title="threshnet">
 </p>
 
-### Citation
+## Citation
 If you find ThreshNet useful in your research, please consider citing:
 
 	@article{ThreshNet 2022,
@@ -22,7 +22,7 @@ If you find ThreshNet useful in your research, please consider citing:
 4. [Hyperparameters](#Hyperparameters)
 5. [References](#References)
 
-### Introduction
+## Introduction
 ThreshNet is a network that using a threshold mechanism to further optimize the method of connections. Different numbers of connections for different convolution layers are discarded to speed up inference of the network. ThreshNet has been evaluated with image classification using data sets of CIFAR 10 and SVHN under platforms of NVIDIA RTX 3050 and Raspberry Pi 4. Experimental results show that, compared with HarDNet68, GhostNet, MobileNetV2, ShuffleNet, and EfficientNet, the inference time of the proposed ThreshNet79 is 5%, 9%, 10%, 18%, and 20% faster, respectively. The number of parameters of ThreshNet95 is 55% less than that of HarDNet85.
 
  <img src="Img/threshold-mechanism.jpg" width="640" title="threshold-mechanism">
