@@ -18,7 +18,7 @@ If you find ThreshNet useful in your research, please consider citing:
 2. [Usage](#Usage)
 2. [Results](#Results)
 3. [Requirements](#Requirements)
-4. [Hyperparameters](#Hyperparameters)
+4. [Config](#Config)
 5. [References](#References)
 
 ## Introduction
@@ -30,6 +30,12 @@ ThreshNet is a network that using a threshold mechanism to further optimize the 
 ```bash
 python3 main.py
 ```
+optional arguments:
+
+    --lr                default=1e-3    learning rate
+    --epoch             default=200     number of epochs tp train for
+    --trainBatchSize    default=100     training batch size
+    --testBatchSize     default=100     test batch size
 
 ## Results
 | Name | Params (M) | MAdds (G) | FLOPs (G) | Memory (MB) | MemR+W (MB)| 
@@ -53,6 +59,15 @@ python3 main.py
 * Pytorch 0.4.0+
 * Pandas 0.23.4+
 * NumPy 1.14.3+
+
+## Config
+###### ptimizer 
+Adam
+###### Learning Rate
+__1e-3__ for [1,74] epochs <br>
+__5e-4__ for [75,149] epochs <br>
+__2.5e-4__ for [150,200) epochs <br>
+
 
 ## References
 * [torchstat](https://github.com/Swall0w/torchstat)
