@@ -48,7 +48,7 @@ optional arguments:
 | MobileNetV2 | 0.46 | 14.06 | 2.42 | 4.75 | 384.78 | 2.37 |
 | **ThreshNet95** | 0.46 | 13.31 | 4.07 | 8.12 | 132.34 | 16.19 | 
 | HarDNet85 | 0.50 | 13.89 | 9.10 | 18.18 | 74.65 | 36.67 |
-GPU Time is the inference time per image on NVIDIA RTX 3050.
+\** GPU Time is the inference time per image on NVIDIA RTX 3050\
 
 ## Requirements
 * Python 3.6+
