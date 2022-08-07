@@ -14,6 +14,13 @@ If you find ThreshNet useful in your research, please consider citing:
 	 journal={IEEE Access},
 	 year={2022}
 	 }
+	 
+## Contents
+1. [Introduction](#introduction)
+2. [Results on CIFAR](#Results)
+3. [Requirements](#Requirements)
+4. [Hyperparameters](#Hyperparameters)
+5. [References](#References)
 
 ### Result
 
@@ -32,31 +39,6 @@ If you find ThreshNet useful in your research, please consider citing:
 | **ThreshNet-95** | 17.14  | 8.12  | 4.07 | 132.32  | 360.30 | 
 | HarDNet-68  | 17.57  | 8.51 | 4.26 | 49.28 | 181.97 |
 | HarDNet-85  | 36.67  | 18.18 | 9.10 | 74.65  | 313.42 |
-
-### Module
-```python
-from torchstat import stat
-import torchvision.models as models
-
-model = models.resnet18()
-stat(model, (3, 224, 224))
-```
-
-### Supported Layers
-|Layer|Flops|Madd|MemRead|MemWrite|
-|---|---|---|---|---| 
-|Conv2d|ok|ok|ok| ok|
-|ConvTranspose2d| |ok|||
-|BatchNorm2d|ok|ok|ok|ok|
-|Linear|ok|ok|ok|ok|
-|UpSample|ok| |||
-|AvgPool2d|ok|ok|ok|ok|
-|MaxPool2d|ok|ok|ok|ok|
-|ReLU|ok|ok|ok|ok|
-|ReLU6|ok|ok|ok|ok|
-|LeaklyReLU|ok||ok|ok|
-|PReLU|ok|ok|ok|ok|
-|ELU|ok|ok|ok|ok|
 
 ### Requirements
 * Python 3.6+
