@@ -62,7 +62,7 @@ optional arguments:
 
 ## Config
 ###### Optimizer 
-Adam Optimizer
+__Adam Optimizer__
 ###### Learning Rate
 __1e-3__ for [1,74] epochs <br>
 __5e-4__ for [75,149] epochs <br>
