@@ -38,8 +38,8 @@ optional arguments:
     --testBatchSize     default=100     test batch size
 
 ## Results
-| Name | Params (M) | MAdds (G) | FLOPs (G) | Memory (MB) | MemR+W (MB)| 
-| :---: | :---:  | :---:  | :---:  | :---:  | :---:  |
+| Name | GPU Time (ms) | Error (%) | FLOPs (G) | MAdd (G) | Memory (MB) | #Params (M) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | ResNet-50  | 25.55  | 8.22 | 4.12 | 109.69 | 317.43 |
 | ResNet-101  | 44.54  | 15.66 | 7.84 | 161.75 | 494.00 |
 | ResNet-152  | 60.19  | 23.11 | 11.57 | 226.06 | 682.30 |
