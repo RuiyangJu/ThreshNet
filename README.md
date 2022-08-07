@@ -61,7 +61,7 @@ optional arguments:
 * NumPy 1.14.3+
 
 ## Config
-###### ptimizer 
+###### Optimizer 
 Adam
 ###### Learning Rate
 __1e-3__ for [1,74] epochs <br>
