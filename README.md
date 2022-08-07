@@ -1,6 +1,14 @@
 # CNN architecture parameters
 ### [ThreshNet: An Efficient DenseNet Using Threshold Mechanism to Reduce Connections](https://arxiv.org/abs/2201.03013)
-* IEEE Access (10.1109/ACCESS.2022.3196492)
+
+### Citation
+If you find ThreshNet useful in your research, please consider citing:
+IEEE Access (10.1109/ACCESS.2022.3196492)
+
+@title={ThreshNet: An Efficient DenseNet Using Threshold Mechanism to Reduce Connections},
+ author={Huang, Gao and Liu, Zhuang and Pleiss, Geoff and Van Der Maaten, Laurens and Weinberger, Kilian},
+ journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+ year={2019}
 
 
 ### Result
