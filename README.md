@@ -1,5 +1,5 @@
 # CNN architecture parameters
-### [ThreshNet: An Efficient DenseNet Using Threshold Mechanism to Reduce Connections]([10.1109/ACCESS.2022.3196492](https://arxiv.org/abs/2201.03013))
+### [ThreshNet: An Efficient DenseNet Using Threshold Mechanism to Reduce Connections](https://arxiv.org/abs/2201.03013)
 * Measure the parameters of different CNN model architectures by torchstat.
 * CNN includes: ResNet, ResNeXt, Wide_ResNet, DenseNet, ThreshNet, HarDNet.
 
