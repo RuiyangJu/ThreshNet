@@ -2,12 +2,18 @@
 ### [ThreshNet: An Efficient DenseNet Using Threshold Mechanism to Reduce Connections](https://arxiv.org/abs/2201.03013)
 
 ### Citation
+
 If you find ThreshNet useful in your research, please consider citing:
+
 @article{ThreshNet2022,
     author = {Rui-Yang Ju, Ting-Yu Lin, Jia-Hao Jian, Jen-Shiun Chiang, Wei-Bin Yang},
+    
     title = {ThreshNet: An Efficient DenseNet using Threshold Mechanism to Reduce Connections},
+    
     journal = {IEEE Access},
+    
     DOI = {10.1109/ACCESS.2022.3196492},
+    
     year = 2022}
 
 
