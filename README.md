@@ -48,12 +48,13 @@ python3 main.py
 | HarDNet-68  | 17.57  | 8.51 | 4.26 | 49.28 | 181.97 |
 | HarDNet-85  | 36.67  | 18.18 | 9.10 | 74.65  | 313.42 |
 
-### Requirements
+## Requirements
 * Python 3.6+
 * Pytorch 0.4.0+
 * Pandas 0.23.4+
 * NumPy 1.14.3+
 
-### References
+## References
 * [torchstat](https://github.com/Swall0w/torchstat)
+* [pytorch-cifar10](https://github.com/soapisnotfat/pytorch-cifar10)
 * [HarDNet](https://github.com/PingoLH/Pytorch-HarDNet)
