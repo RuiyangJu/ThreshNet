@@ -1,4 +1,4 @@
-# [Three-stage binarization of color document images based on discrete wavelet transform and generative adversarial networks](https://arxiv.org/)
+# [ThreshNet: An Efficient DenseNet Using Threshold Mechanism to Reduce Connections](https://arxiv.org/abs/2201.03013)
 <p align="center">
   <img src="Img/threshnet.jpg" width="640" title="threshnet">
 </p>
