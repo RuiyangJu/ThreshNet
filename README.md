@@ -69,14 +69,22 @@ optional arguments:
 
 ## Config
 ###### Optimizer 
-__Adam Optimizer__
+
+* __Adam Optimizer__
+  
 ###### Learning Rate
-__1e-3__ for [1,74] epochs <br>
-__5e-4__ for [75,149] epochs <br>
-__2.5e-4__ for [150,200) epochs <br>
+
+*__1e-3__ for [1,74] epochs <br>
+
+*__5e-4__ for [75,149] epochs <br>
+
+*__2.5e-4__ for [150,200) epochs <br>
 
 
 ## References
+
+<details><summary> <b>Expand</b> </summary>
+
 * [torchstat](https://github.com/Swall0w/torchstat)
 * [pytorch-cifar10](https://github.com/soapisnotfat/pytorch-cifar10)
 * [HarDNet](https://github.com/PingoLH/Pytorch-HarDNet)
