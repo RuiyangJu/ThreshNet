@@ -5,11 +5,12 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/threshnet-an-efficient-densenet-using/image-classification-on-svhn)](https://paperswithcode.com/sota/image-classification-on-svhn?p=threshnet-an-efficient-densenet-using)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/threshnet-an-efficient-densenet-using/image-classification-on-cifar-10)](https://paperswithcode.com/sota/image-classification-on-cifar-10?p=threshnet-an-efficient-densenet-using)
 
-## Figure
+## Architecture
 <p align="center">
   <img src="Img/threshnet.jpg" width="640" title="threshnet">
 </p>
 
+## Mechanism
 <p align="center">
  <img src="Img/threshold-mechanism.jpg" width="640" title="threshold-mechanism">
 </p>
